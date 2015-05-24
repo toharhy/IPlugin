@@ -4,7 +4,8 @@
 		
 ###Running Cat! 
 ##Not just quick but easy to boot, this preloader plugin allows your page to load the way it was always meant to: with style!
-		
+
+##[DEMO](http://toharhy.github.io/IPlugin/)
 	
 ###Set up
 Setting up is no probelm at all with the Running Cat 
