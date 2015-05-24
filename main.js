@@ -9,11 +9,9 @@ $.fn.runningCat = function(){
     ).done(function(){
     	$(".loaderContainer").animate({left: '0%'}).promise
     })
-    $( this ).fadeTo( "slow" , 0.75, function() {
-    // Animation complete.
-  });
+    
 
-    div.delay(1500).animate({left:'100%'}, 400);
+    div.delay(1500).animate({left:'100%'});
 
  };
 	

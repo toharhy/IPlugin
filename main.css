@@ -41,8 +41,12 @@ h1 {
 	text-transform: uppercase;
 }
 
-a {
+a{
 	margin-bottom: 20px;
+	color: black;
+}
+a:hover {
+	color: red;
 }
 
 h3 {
