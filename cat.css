@@ -1,0 +1,70 @@
+#run {
+    width: 1600px; 
+    height: 500px; 
+	background-repeat: no-repeat;
+	/* position: left;  */
+    -webkit-animation-name: run; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+	-webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	-webkit-animation-play-state: running;
+	animation-name: run; /* std browser */
+    animation-duration: 2s; /* std browser */
+	animation-iteration-count: infinite; /* std browser */
+	animation-play-state: running;
+	transition: 0.7s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes run {
+    4%  {background-image: url(images/catz00.gif);background-size:15%;background-position: 0%; }
+    8% {background-image: url(images/catz01.gif);background-size:15%;background-position: 4%;}
+    12% {background-image: url(images/catz02.gif);background-size:15%;background-position: 8%;}
+    16% {background-image: url(images/catz03.gif);background-size:15%;background-position: 12%;}
+	20% {background-image: url(images/catz04.gif);background-size:15%;background-position: 16%;}
+	24% {background-image: url(images/catz05.gif);background-size:15%;background-position: 20%;}
+	28% {background-image: url(images/catz06.gif);background-size:15%;background-position: 24%;}
+	32% {background-image: url(images/catz07.gif);background-size:15%;background-position: 28%;}
+	36% {background-image: url(images/catz08.gif);background-size:15%;background-position: 32%;}
+	40% {background-image: url(images/catz09.gif);background-size:15%;background-position: 36%;}
+	44% {background-image: url(images/catz10.gif);background-size:15%;background-position: 40%;}
+	48% {background-image: url(images/catz11.gif);background-size:15%;background-position: 44%;}
+	52% {background-image: url(images/catz12.gif);background-size:15%;background-position: 48%;}
+	56%  {background-image: url(images/catz00.gif);background-size:15%;background-position: 52%;}
+    60% {background-image: url(images/catz01.gif);background-size:15%;background-position: 56%;}
+    64% {background-image: url(images/catz02.gif);background-size:15%;background-position: 60%;}
+    68% {background-image: url(images/catz03.gif);background-size:15%;background-position: 64%;}
+	72% {background-image: url(images/catz04.gif);background-size:15%;background-position: 68%;}
+	76% {background-image: url(images/catz05.gif);background-size:15%;background-position: 72%;}
+	80% {background-image: url(images/catz06.gif);background-size:15%;background-position: 76%;}
+	84% {background-image: url(images/catz07.gif);background-size:15%;background-position: 80%;}
+	86% {background-image: url(images/catz08.gif);background-size:15%;background-position: 84%;}
+	92% {background-image: url(images/catz09.gif);background-size:15%;background-position: 88%;}
+	96% {background-image: url(images/catz10.gif);background-size:15%;background-position: 92%;}
+	100% {background-image: url(images/catz11.gif);background-size:15%;background-position: 96%;}
+	104% {background-image: url(images/catz12.gif);background-size:15%;background-position: 100%;}
+}
+
+
+.preloader{
+  background: white;
+  height:100%;
+  width:100%;
+  position:fixed;
+  bottom:0;
+
+}
+
+
+@media(max-width: 400px){
+  .runningCat{
+    width: 100%;
+    opacity: 0;
+  }
+
+}
+
+.loaderContainer{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
