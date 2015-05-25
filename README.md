@@ -24,6 +24,7 @@ below to locate all your files in your directory.
 	 
 ##Next
 Copy and paste the following code in your HTML.
+
 `<div class="preloader"</code>`
 `<div class="loaderContainer"</div>`
 `<div id="run"</div>`
