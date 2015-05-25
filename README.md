@@ -9,8 +9,8 @@ Here is a [DEMO](http://toharhy.github.io/IPlugin/) page to check out the plugin
 	
 ###Set up
 Setting up is no probelm at all with the Running Cat 
-preloader  plugin! Start by downloading ["RunnigCat files.
-zip"] and copy the js, css, and image files to your 
+preloader  plugin! Start by downloading [RunnigCat files.
+zip](http://tohar.io/IPlugin/RunningCatPlugin.zip) and copy the js, css, and image files to your 
 directory. Make sure that they all reside in your 
 RunningCat folder. Following the download, copy the links
 below to locate all your files in your directory.
